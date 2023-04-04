@@ -5,6 +5,7 @@ policies, clients, and claims using Spring Boot and Java.</p>
 
 <h1>Tech Stack</h1>
   <ul>
+    <li>Java</li>
     <li>Spring Boot</li>
     <li>Spring Security</li>
     <li>Spring Data JPA</li>
@@ -44,3 +45,7 @@ policies, clients, and claims using Spring Boot and Java.</p>
     
 <h1>API Documentation using Swagger</h1>
  <p>Navigate to <a href="http://localhost:1200/swagger-ui/index.html">http://localhost:1200/swagger-ui/index.html</a> in your web browser to access the documentation.</p>
+ 
+ <h1>Accessing the APIs</h1>
+ <p>In order to access the /api/clients, /api/policies, and /api/claims endpoints, one needs to generate a JWT token with the username and password set as ADMIN.</p>
+ 
