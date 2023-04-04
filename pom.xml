@@ -35,25 +35,36 @@
             <version>8.0.30</version>
         </dependency>
         
+        <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api-osgi -->
+      <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api-osgi</artifactId>
+            <version>2.2.6</version>
+      </dependency>
         <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
        <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.9.0</version>
       </dependency>
-        
-         <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+      
+      <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.0.2</version>
+      </dependency>
+       <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
       <dependency>
              <groupId>javax.validation</groupId>
              <artifactId>validation-api</artifactId>
              <version>2.0.0.Final</version>
       </dependency>
-      
-      <!--<dependency>
-             <groupId>org.springdoc</groupId>
-             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-             <version>2.1.0</version>
-      </dependency>-->
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
+     <dependency>
+             <groupId>org.hibernate</groupId>
+             <artifactId>hibernate-validator</artifactId>
+             <version>7.0.5.Final</version>
+     </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -72,10 +83,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.api.books</groupId>
-			<artifactId>Restaurant</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
